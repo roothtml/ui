@@ -5,6 +5,22 @@
       </button>  
   </template> 
   <script>
+/**
+* ui-header
+* @module components/button
+* @desc 按钮
+* @param {string} [type=default] - 显示类型，接受 default, primary, danger,success,info,warning
+* @param {boolean} [disabled=false] - 禁用  //待开发
+* @param {boolean} [plain=false] - 幽灵按钮   //待开发
+* @param {string} [size=normal] - 尺寸，接受 normal, small, large   //待开发
+* @param {string} [native-type] - 原生 type 属性    //待开发
+* @param {string} [icon] - 图标，暂不提供自定义图标
+* @param {slot} - 显示文本
+* @param {slot} [icon] 显示图标
+*
+* @example
+* <ui-button   icon="thumbs-up" type="primary">按钮</ui-button>
+*/
   export default {
     name: 'ui-button',
     props:{
@@ -16,8 +32,7 @@
           default:false, 
        },
        type:{
-          type:String,
-          
+          type:String, 
        }
     },
   }
