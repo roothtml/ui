@@ -1,5 +1,5 @@
 <template>  
-      <button class="ui-button" :class="type"> 
+      <button @click="$emit('click',$event)" class="ui-button" :class="type"> 
           <ui-icon :class="{'loading':loading }"   v-if="icon" :icon="icon"></ui-icon>
           <slot></slot>  
       </button>  
