@@ -18,9 +18,8 @@
         <ui-button type="info">信息按钮</ui-button>
         <ui-button type="warning">警告按钮</ui-button>
         <ui-button type="danger">危险按钮</ui-button> 
-     </div>
-     <div id="testButton"></div>
-     <div id="testButtonLodding"></div>
+     </div> 
+     <ui-Input></ui-Input>
   </div> 
 </template>
 

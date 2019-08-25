@@ -6,9 +6,11 @@ import router from './router'
 import Icon from '@/components/ui-icon'
 import ButtonGroup from '@/components/button-group'
 import Button from '@/components/button' 
+import Input from '@/components/input'
 Vue.config.productionTip = false
 Vue.component('ui-icon',Icon);
 Vue.component('ui-button',Button);
+Vue.component('ui-Input',Input);
 Vue.component('ui-button-group',ButtonGroup);
 /* eslint-disable no-new */
 new Vue({
